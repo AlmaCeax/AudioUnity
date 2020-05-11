@@ -19,9 +19,13 @@ namespace QuestSystem
         public event QuestEvent OnNewQuest;
         public event QuestEvent OnQuestCompleted;
 
-        public AK.Wwise.RTPC QuestlineProgressionRTPC;
-        public AK.Wwise.Event QuestlineCompleteEvent;
+        //public AK.Wwise.RTPC QuestlineProgressionRTPC;
+        //public AK.Wwise.Event QuestlineCompleteEvent;
         //public AK.Wwise.Event QuestlineAdvancedEvent;
+
+        [Header("Audio")]
+        public AudioClip QuestlineCompleteEvent;
+        private AudioSource audio_source;
 
         public bool StartQuestLineOnStart = true;
         public List<Quest> Quests;
@@ -39,6 +43,7 @@ namespace QuestSystem
             {
                 InitializeQuest(currentQuestIdx);
             }
+            audio_source = GetComponent<AudioSource>();
         }
 
         private Coroutine InitializeQuest(int questIdx)
@@ -59,7 +64,7 @@ namespace QuestSystem
                 OnNewQuest(currentQuest);
             }
 
-            QuestlineProgressionRTPC.SetGlobalValue(GetNormalizedQuestlineProgress() * 100f);
+            //QuestlineProgressionRTPC.SetGlobalValue(GetNormalizedQuestlineProgress() * 100f);
             initializingNewQuest = false;
         }
 
@@ -86,12 +91,16 @@ namespace QuestSystem
             currentQuestIdx++;
             if (currentQuestIdx < Quests.Count)
             {
-                QuestlineCompleteEvent.Post(gameObject);
+                audio_source.clip = QuestlineCompleteEvent;
+                audio_source.Play();
+                //QuestlineCompleteEvent.Post(gameObject);
                 InitializeQuest(currentQuestIdx);
             }
             else
             {
-                QuestlineCompleteEvent.Post(gameObject);
+                audio_source.clip = QuestlineCompleteEvent;
+                audio_source.Play();
+                //QuestlineCompleteEvent.Post(gameObject);
                 if (OnQuestlineComplete != null)
                 {
                     OnQuestlineComplete(this);
