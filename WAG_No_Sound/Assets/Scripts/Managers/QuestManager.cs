@@ -42,7 +42,10 @@ public class QuestManager : Singleton<QuestManager>
     public List<QuestItemInfo> QuestItems;
     public static bool hasActiveMainQuest = false;
     public static bool playerHasSeenMainQuest = false;
-    public AK.Wwise.RTPC QuestProgressRTPC = new AK.Wwise.RTPC();
+    //public AK.Wwise.RTPC QuestProgressRTPC = new AK.Wwise.RTPC();
+    [Header("Audio")]
+    public AudioClip QuestSound;
+    private AudioSource audio_source;
     public static bool DialogueReady = false;
 
     public static string NameOfCurrentQuest;
@@ -57,6 +60,11 @@ public class QuestManager : Singleton<QuestManager>
     void Awake()
     {
         QuestItems = new List<QuestItemInfo>();
+    }
+
+    private void Start()
+    {
+        audio_source = GameObject.Find("Menus").GetComponent<AudioSource>();
     }
 
     public static void PushQuestBarUpdate()
@@ -95,6 +103,6 @@ public class QuestManager : Singleton<QuestManager>
     public void UpdateRTPC()
     {
         float percentage = ((float)mainQuestProgress / (float)AmountOfQuests) * 100f;
-        QuestProgressRTPC.SetGlobalValue(percentage);
+        //QuestProgressRTPC.SetGlobalValue(percentage);
     }
 }

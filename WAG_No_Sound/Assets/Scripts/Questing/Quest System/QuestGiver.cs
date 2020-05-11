@@ -43,7 +43,7 @@ namespace QuestSystem
             {
                 InitializeQuest(currentQuestIdx);
             }
-            audio_source = GetComponent<AudioSource>();
+            audio_source = GameObject.Find("Menus").GetComponent<AudioSource>();
         }
 
         private Coroutine InitializeQuest(int questIdx)

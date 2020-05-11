@@ -20,7 +20,7 @@ public class WorldTeleporter : MonoBehaviour
     //public AK.Wwise.Event TeleportSelectSound;
 
     [Header("Audio")]
-    public AudioClip TeleportSelectSound;
+    private AudioClip TeleportSelectSound;
     private AudioSource audio_source;
 
     [Header("UI Objects")]
@@ -40,7 +40,8 @@ public class WorldTeleporter : MonoBehaviour
 
     public void Start()
     {
-        audio_source = GetComponent<AudioSource>();
+        audio_source = GameObject.Find("Menus").GetComponent<AudioSource>();
+        TeleportSelectSound = GameObject.Find("Menus").GetComponent<Menu>().TeleportSelectSound;
     }
 
     private void OnDestroy()

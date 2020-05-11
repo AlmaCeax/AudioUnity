@@ -22,9 +22,10 @@ public class Menu : MonoBehaviour
 
     [Header("Audio")]
     public AudioClip MenuOpenSound;
-    public AudioClip MenuCloseSound;
+    public AudioClip ButtonCloseSound;
     public AudioClip ButtonEnterSound;
     public AudioClip ButtonOverSound;
+    public AudioClip TeleportSelectSound;
     private AudioSource audio_source;
 
     [Header("Other")]
@@ -82,7 +83,7 @@ public class Menu : MonoBehaviour
             }
             else
             {
-                audio_source.clip = MenuCloseSound;
+                audio_source.clip = ButtonCloseSound;
                 audio_source.Play();
                 //MenuCloseSound.Post(gameObject);
                 //MenuRTPC.SetGlobalValue(0f);
