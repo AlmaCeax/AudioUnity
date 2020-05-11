@@ -350,24 +350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 3a03d83b142ccae46bca93c5ebb06a16,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1024290128613636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,24 +1553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1046010929885558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,24 +2175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1063073493763730
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,24 +2709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 3a03d83b142ccae46bca93c5ebb06a16,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1075443021542826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,23 +2916,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1077283886752462
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,23 +4066,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1093821812463402
 GameObject:
   m_ObjectHideFlags: 0
@@ -7958,24 +7852,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1186197647257254
 GameObject:
   m_ObjectHideFlags: 0
@@ -8462,24 +8338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1197182879237398
 GameObject:
   m_ObjectHideFlags: 0
@@ -9212,24 +9070,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1203017867344020
 GameObject:
   m_ObjectHideFlags: 0
@@ -9644,24 +9484,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1217039655693072
 GameObject:
   m_ObjectHideFlags: 0
@@ -11640,11 +11462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e860e18ff4be2438aa9a073f05aa1de7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TeleportSelectSound:
-    idInternal: 750089663
-    valueGuidInternal: bcc7ef1718712d4c8f3a46491d0bf0cc
-    WwiseObjectReference: {fileID: 11400000, guid: a14c770875cd49a4db14ea298285d4f9,
-      type: 2}
+  TeleportSelectSound: {fileID: 8300000, guid: 33e6faadbaeba7d4da154c8bc983c796, type: 3}
   dropdown: {fileID: 114382153989893564}
   destinationKeyPrefix: dropdown_
   teleportParticles: {fileID: 1000012744069254, guid: ae05fed08787949eba948fd152b32a6e,
@@ -11695,24 +11513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1252137798341624
 GameObject:
   m_ObjectHideFlags: 0
@@ -12645,10 +12445,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 224607442803426960}
   m_HandleRect: {fileID: 224051337643098436}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
+  m_MinValue: -40
+  m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -12695,7 +12495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 337d000ccdb954b5e959bfef1be88494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameMixer: {fileID: 0}
+  gameMixer: {fileID: 24100000, guid: 7f1a6f51e2ae84a4484f1f3dedae5e3c, type: 2}
 --- !u!114 &114750073526160284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12708,24 +12508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1273010052655258
 GameObject:
   m_ObjectHideFlags: 0
@@ -13237,24 +13019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 3a03d83b142ccae46bca93c5ebb06a16,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1286179321020654
 GameObject:
   m_ObjectHideFlags: 0
@@ -14200,10 +13964,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 224983652048203506}
   m_HandleRect: {fileID: 224027454647733462}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
+  m_MinValue: -40
+  m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -14250,7 +14014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 337d000ccdb954b5e959bfef1be88494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameMixer: {fileID: 0}
+  gameMixer: {fileID: 24100000, guid: 7f1a6f51e2ae84a4484f1f3dedae5e3c, type: 2}
 --- !u!114 &114618134497236814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14263,24 +14027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1317794461065916
 GameObject:
   m_ObjectHideFlags: 0
@@ -15333,24 +15079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1344016309155878
 GameObject:
   m_ObjectHideFlags: 0
@@ -15903,24 +15631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1351096433513422
 GameObject:
   m_ObjectHideFlags: 0
@@ -16697,24 +16407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1365036114527318
 GameObject:
   m_ObjectHideFlags: 0
@@ -18194,24 +17886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 3a03d83b142ccae46bca93c5ebb06a16,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!114 &114503228466089704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19641,24 +19315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e7c46881afe7ee447a87f3f1c0e531ae,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1444383539802416
 GameObject:
   m_ObjectHideFlags: 0
@@ -20418,7 +20074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
-  m_VerticalFit: 0
+  m_VerticalFit: 1
 --- !u!114 &114768651341227852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20457,24 +20113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e7c46881afe7ee447a87f3f1c0e531ae,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1460948547196016
 GameObject:
   m_ObjectHideFlags: 0
@@ -22615,6 +22253,7 @@ GameObject:
   - component: {fileID: 114050898765321982}
   - component: {fileID: 114684836771454830}
   - component: {fileID: 225149838225351128}
+  - component: {fileID: 231020041}
   m_Layer: 5
   m_Name: Menus
   m_TagString: Untagged
@@ -22720,11 +22359,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5310e102d21ce4429b7356f2bedcc79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MenuOpenSound: {fileID: 0}
-  MenuCloseSound: {fileID: 0}
-  ButtonEnterSound: {fileID: 0}
-  ButtonOverSound: {fileID: 0}
-  ButtonTeleportSound: {fileID: 0}
+  MenuOpenSound: {fileID: 8300000, guid: a5b8ca31483aea1418e2736af9083bfe, type: 3}
+  MenuCloseSound: {fileID: 8300000, guid: cf60f96d9d8db8d4298be18f0ba02ce1, type: 3}
+  ButtonEnterSound: {fileID: 8300000, guid: a508b4023d209ae4092a65b3270d8e9f, type: 3}
+  ButtonOverSound: {fileID: 8300000, guid: febc35abccbf6fa4690add8706d4b9de, type: 3}
   ControlsBox: {fileID: 114982243053993680}
   QuestBox: {fileID: 114729522498128852}
   GetMouseWithP: 0
@@ -22776,6 +22414,103 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!82 &231020041
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522088180781796}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -7099412946703975319, guid: 7f1a6f51e2ae84a4484f1f3dedae5e3c,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1522655101098588
 GameObject:
   m_ObjectHideFlags: 0
@@ -23802,24 +23537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1538849238083510
 GameObject:
   m_ObjectHideFlags: 0
@@ -24882,24 +24599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1558307302549896
 GameObject:
   m_ObjectHideFlags: 0
@@ -32924,24 +32623,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1627682604133570
 GameObject:
   m_ObjectHideFlags: 0
@@ -33337,24 +33018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1636399287956368
 GameObject:
   m_ObjectHideFlags: 0
@@ -33549,24 +33212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1638711388101982
 GameObject:
   m_ObjectHideFlags: 0
@@ -38048,24 +37693,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1761010085701958
 GameObject:
   m_ObjectHideFlags: 0
@@ -41939,24 +41566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1892312105917540
 GameObject:
   m_ObjectHideFlags: 0
@@ -42978,24 +42587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1902507968031182
 GameObject:
   m_ObjectHideFlags: 0
@@ -43399,24 +42990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1907628233465484
 GameObject:
   m_ObjectHideFlags: 0
@@ -43641,24 +43214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!114 &114074294171476850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44043,24 +43598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e7c46881afe7ee447a87f3f1c0e531ae,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1921351416696708
 GameObject:
   m_ObjectHideFlags: 0
@@ -46104,7 +45641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0000008041544}
+  m_AnchoredPosition: {x: 0, y: -0.000045581204}
   m_SizeDelta: {x: 232.96, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &222643312031218736
@@ -47884,24 +47421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: e7c46881afe7ee447a87f3f1c0e531ae,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1994448189174656
 GameObject:
   m_ObjectHideFlags: 0
@@ -48664,7 +48183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 925371751266124573}
-  key: menu_musicVolume
+  key: menu_sfxVolume
   forceUppercase: 1
 --- !u!1 &3286530165156105849
 GameObject:
@@ -48877,7 +48396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 3857033384416023644}
-  key: menu_musicVolume
+  key: menu_dialogVolume
   forceUppercase: 1
 --- !u!1 &5914288064598179805
 GameObject:
@@ -49110,10 +48629,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 6044793444087043717}
   m_HandleRect: {fileID: 3919524175209466560}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
+  m_MinValue: -40
+  m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -49160,7 +48679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 337d000ccdb954b5e959bfef1be88494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameMixer: {fileID: 0}
+  gameMixer: {fileID: 24100000, guid: 7f1a6f51e2ae84a4484f1f3dedae5e3c, type: 2}
 --- !u!114 &3972598679489719017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49173,24 +48692,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: -820400986
-    valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 156563189
-    valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &7615650187659450489
 GameObject:
   m_ObjectHideFlags: 0
@@ -49276,10 +48777,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 8906976018883940742}
   m_HandleRect: {fileID: 9011736707817392473}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
+  m_MinValue: -40
+  m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -49326,7 +48827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 337d000ccdb954b5e959bfef1be88494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameMixer: {fileID: 0}
+  gameMixer: {fileID: 24100000, guid: 7f1a6f51e2ae84a4484f1f3dedae5e3c, type: 2}
 --- !u!114 &1380540089115959097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49339,24 +48840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e312070359784137a10f501797a3ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnPointerDownSound:
-    idInternal: -820400986
-    valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
-      type: 2}
-  OnPointerUpSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
-  OnPointerEnterSound:
-    idInternal: 156563189
-    valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
-      type: 2}
-  OnPointerExitSound:
-    idInternal: 0
-    valueGuidInternal: 00000000000000000000000000000000
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &7623323546925349030
 GameObject:
   m_ObjectHideFlags: 0
