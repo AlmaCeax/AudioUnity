@@ -35,6 +35,7 @@ public class PlayerManager : Singleton<PlayerManager>
     [Header("Audio Clips")]
     public List<ListWrapper> runFootstepClips;
     public List<ListWrapper> walkFootstepClips;
+    public List<ListWrapper> impactClips;
 
     [Header("Player Information")]
     public bool isAlive;

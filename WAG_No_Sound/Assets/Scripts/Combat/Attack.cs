@@ -8,7 +8,7 @@
 using System.Collections;
 
 public enum SwingTypes{ None, Left, Right, Top }
-public enum WeaponTypes{ None, Dagger, Sword, Axe, PickAxe, Hammer, EvilSpitPlant, EvilCrawler, EvilHead }
+public enum WeaponTypes{ Dagger, Sword, Axe, PickAxe, Hammer, EvilSpitPlant, EvilCrawler, EvilHead, None }
 public enum WeaponAnimationTypes{ OneHanded, BigAndHeavy }
 
 public class Attack {
