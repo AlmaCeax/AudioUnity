@@ -15,7 +15,8 @@ public enum SoundMatType
     SAND,
     STONE,
     WATER,
-    WOOD
+    WOOD,
+    CRYSTAL
 }
 public class SoundMaterial : MonoBehaviour
 {
