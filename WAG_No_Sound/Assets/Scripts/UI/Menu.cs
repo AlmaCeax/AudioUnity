@@ -23,6 +23,9 @@ public class Menu : MonoBehaviour
     [Header("Audio")]
     public AudioClip MenuOpenSound;
     public AudioClip MenuCloseSound;
+    public AudioClip ButtonEnterSound;
+    public AudioClip ButtonOverSound;
+    public AudioClip ButtonTeleportSound;
     private AudioSource audio_source;
 
     [Header("Other")]

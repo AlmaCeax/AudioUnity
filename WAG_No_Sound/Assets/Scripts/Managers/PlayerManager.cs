@@ -8,15 +8,14 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public delegate void DeathMessage();
-public delegate void NewWeaponEvent();
-
 [System.Serializable]
 public class ListWrapper
 {
     public List<AudioClip> myList;
 }
 
+public delegate void DeathMessage();
+public delegate void NewWeaponEvent();
 public class PlayerManager : Singleton<PlayerManager>
 {
 
@@ -26,12 +25,12 @@ public class PlayerManager : Singleton<PlayerManager>
 
     protected PlayerManager() { }
 
-     [Header("-- Wwise --")]
-     public AK.Wwise.Event Health = new AK.Wwise.Event();
-     public AK.Wwise.Trigger Death = new AK.Wwise.Trigger();
-     public AK.Wwise.RTPC HealthLevel = new AK.Wwise.RTPC();
-     public AK.Wwise.RTPC RegenerationLevel = new AK.Wwise.RTPC();
-     public AK.Wwise.Event HurtSound = new AK.Wwise.Event();
+    [Header("-- Wwise --")]
+    public AK.Wwise.Event Health = new AK.Wwise.Event();
+    public AK.Wwise.Trigger Death = new AK.Wwise.Trigger();
+    public AK.Wwise.RTPC HealthLevel = new AK.Wwise.RTPC();
+    public AK.Wwise.RTPC RegenerationLevel = new AK.Wwise.RTPC();
+    public AK.Wwise.Event HurtSound = new AK.Wwise.Event();
 
     [Header("Audio Clips")]
     public List<ListWrapper> runFootstepClips;

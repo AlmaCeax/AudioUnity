@@ -5,17 +5,30 @@
 ////////////////////////////////////////////////////////////////////////
 
 ﻿using UnityEngine;
+﻿using UnityEngine.Audio;
+using System.Collections;
 
 public class SliderControlledRTPC : MonoBehaviour
 {
-    public AK.Wwise.RTPC RTPC;
+    public AudioMixer gameMixer;
 
-    public void SetRTPC(float value)
+    public void SetMasterVol(float value)
     {
-        if (Menu.isOpen)
-        {
-            RTPC.SetGlobalValue(value);
-        }
+        gameMixer.SetFloat("masterVol", value);
     }
 
+    public void SetMusicVol(float value)
+    {
+        gameMixer.SetFloat("musicVol", value);
+    }
+
+    public void SetSFXVol(float value)
+    {
+        gameMixer.SetFloat("sfxVol", value);
+    }
+
+    public void SetDialogVol(float value)
+    {
+        gameMixer.SetFloat("dialogVol", value);
+    }
 }

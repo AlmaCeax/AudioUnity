@@ -39,10 +39,10 @@ public class MaterialChecker : MonoBehaviour
         {
             SoundMaterial sm = hit.collider.gameObject.GetComponent<SoundMaterial>();
 
-            if (sm != null)
+            /*if (sm != null)
             {
-                //sm.material.SetValue(go);
-            }
+                sm.material.SetValue(go);
+            }*/
         }
     }
 

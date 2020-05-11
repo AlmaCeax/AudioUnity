@@ -90,7 +90,7 @@ public class AdventuressAnimationEventHandler : MonoBehaviour
                         foot_L.PlayFootstepSound();
                         particlePosition = foot_L.transform.position;
                         FootstepParticles(particlePosition);
-                    //}
+                   // }
                 }
                 else
                 {
@@ -99,7 +99,7 @@ public class AdventuressAnimationEventHandler : MonoBehaviour
                         foot_R.PlayFootstepSound();
                         particlePosition = foot_R.transform.position;
                         FootstepParticles(particlePosition);
-                    //
+                   // }
                 }
             }
         }

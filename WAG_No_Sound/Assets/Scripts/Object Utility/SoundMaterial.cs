@@ -3,8 +3,7 @@
 // Copyright (c) 2018 Audiokinetic Inc. / All Rights Reserved
 //
 ////////////////////////////////////////////////////////////////////////
-
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public enum SoundMatType
@@ -15,10 +14,10 @@ public enum SoundMatType
     SAND,
     STONE,
     WATER,
-    WOOD,
-    CRYSTAL
+    WOOD
 }
 public class SoundMaterial : MonoBehaviour
 {
+   // public AK.Wwise.Switch material;
     public SoundMatType material;
 }
