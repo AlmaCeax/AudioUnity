@@ -85,10 +85,7 @@ public class Inventory : MonoBehaviour
     private Image MarkerImage_Row3;
     #endregion
 
-    public void Start()
-    {
-        audio_source = GetComponent<AudioSource>();
-    }
+
 
     private void OnDestroy()
     {

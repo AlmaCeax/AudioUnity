@@ -14,13 +14,15 @@ public class UIEventSounds : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     //public AK.Wwise.Event OnPointerEnterSound;
     //public AK.Wwise.Event OnPointerExitSound;
     [Header("Audio")]
-    public AudioClip ButtonEnterSound;
-    public AudioClip ButtonOverSound;
+    private AudioClip ButtonEnterSound;
+    private AudioClip ButtonOverSound;
     private AudioSource audio_source;
 
     public void Start()
     {
-        audio_source = GetComponent<AudioSource>();
+        audio_source = GameObject.Find("Menus").GetComponent<AudioSource>();
+        ButtonEnterSound = GameObject.Find("Menus").GetComponent<Menu>().ButtonEnterSound;
+        ButtonOverSound = GameObject.Find("Menus").GetComponent<Menu>().ButtonOverSound;
     }
 
     public void OnPointerDown(PointerEventData eventData)
