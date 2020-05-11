@@ -183,10 +183,10 @@ public class Weapon : MonoBehaviour, IInteractable
                 if (!alreadyHitObjects.Contains(col.gameObject))
                 {
                     //get material of the contact point
-                    SoundMaterial sm = col.gameObject.GetComponent<SoundMaterial>();
-                    if (sm != null) {
+                    //SoundMaterial sm = col.gameObject.GetComponent<SoundMaterial>();
+                    //if (sm != null) {
 
-                        uint thisSwitch = 0;
+                       // uint thisSwitch = 0;
                        /* AkSoundEngine.GetSwitch((uint)sm.material.GroupId, transform.parent.gameObject, out thisSwitch);
                         //print("Current Switch: "+ thisSwitch +", New: "+ sm.material.ID);
 
@@ -195,7 +195,7 @@ public class Weapon : MonoBehaviour, IInteractable
                             sm.material.SetValue(transform.parent.gameObject); // Set Impact Material
                                                                                //print("New Impact Material: "+ sm.gameObject.name);
                         }*/
-                    }
+                    //}
 
                     SetAndPlayWeaponImpact(col.gameObject);
                     GameManager.DamageObject(col.gameObject, attack);
@@ -235,7 +235,15 @@ public class Weapon : MonoBehaviour, IInteractable
         //print("Impact");
         //WeaponTypeSwitch.SetValue(transform.parent.gameObject); // Weapon Type
         alreadyHitObjects.Add(HitObj);
-        WeaponImpact.Post(transform.parent.gameObject);
+
+        SoundMaterial sm = HitObj.GetComponent<SoundMaterial>();
+        int sound_index = 0;
+        if (sm != null) {
+            sound_index = (int)sm.material;
+        }
+        PlayerManager.Instance.playerAudio.PlayOneShot(PlayerManager.Instance.impactClips[(int)weaponType].myList[sound_index]);
+
+        //WeaponImpact.Post(transform.parent.gameObject);
 
     }
 
