@@ -25,7 +25,12 @@ public class PlayerFoot : MonoBehaviour
         }
 
         int sound_type = (int)materialChecker.GetMaterial();
-        int sound_index = Random.Range(0, PlayerManager.Instance.runFootstepClips[0].myList.Count);
+        int sound_index = 0;
+        if (PlayerManager.Instance.isSprinting)
+            sound_index = Random.Range(0, PlayerManager.Instance.runFootstepClips[sound_type].myList.Count);
+        else
+            sound_index = Random.Range(0, PlayerManager.Instance.walkFootstepClips[sound_type].myList.Count);
+
         PlayerManager.Instance.playerAudio.PlayOneShot(PlayerManager.Instance.runFootstepClips[sound_type].myList[sound_index]);
         //FootstepSound.Post(gameObject);
     }

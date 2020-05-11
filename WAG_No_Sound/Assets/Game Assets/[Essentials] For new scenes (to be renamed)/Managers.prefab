@@ -222,13 +222,55 @@ MonoBehaviour:
     - {fileID: 8300000, guid: c5850605b224c824e9fca38a2e4e79af, type: 3}
     - {fileID: 8300000, guid: fc133bfca00f1b440b3ce7f40cf5e762, type: 3}
   walkFootstepClips:
-  - myList: []
-  - myList: []
-  - myList: []
-  - myList: []
-  - myList: []
-  - myList: []
-  - myList: []
+  - myList:
+    - {fileID: 8300000, guid: 4895f85998f89a24f96ab314b51e326f, type: 3}
+    - {fileID: 8300000, guid: b9883eec6d1caa74993afcaf6c8d021c, type: 3}
+    - {fileID: 8300000, guid: 8d70d883ad0802140bec6f0962e16908, type: 3}
+    - {fileID: 8300000, guid: 1a8dd5bde96fdf44d9585f6670e90de0, type: 3}
+    - {fileID: 8300000, guid: 8b59284977b235345bdd7e6e49971128, type: 3}
+    - {fileID: 8300000, guid: 6185da6b0f5aea24e94fb386ee3f5f20, type: 3}
+  - myList:
+    - {fileID: 8300000, guid: 8742c5b654010554ebe6503649cbdf96, type: 3}
+    - {fileID: 8300000, guid: 4c4d15c73577cec459b8d8b96e18275d, type: 3}
+    - {fileID: 8300000, guid: b940bed2565f1b741942b59e3b1516ce, type: 3}
+    - {fileID: 8300000, guid: e0b1b054ebf89da41a271d99fb45d14d, type: 3}
+    - {fileID: 8300000, guid: f224dbba7c41ebe409674a3f321e6401, type: 3}
+    - {fileID: 8300000, guid: cb738902f8a7c7c47bbd0968848b90f0, type: 3}
+  - myList:
+    - {fileID: 8300000, guid: b8a7e513191a1444e97b863028a9a80d, type: 3}
+    - {fileID: 8300000, guid: b8a7e513191a1444e97b863028a9a80d, type: 3}
+    - {fileID: 8300000, guid: 9a9694d6339f39f4eaed7fdb7987db85, type: 3}
+    - {fileID: 8300000, guid: eb3f3d81342bfb0458da6926f9a06127, type: 3}
+    - {fileID: 8300000, guid: 7caf0dadd9f0ad941bf97d69dc6d9d2b, type: 3}
+    - {fileID: 8300000, guid: be7eff42482293844aae651c9da4cfaf, type: 3}
+  - myList:
+    - {fileID: 8300000, guid: f8881857e5446e842bc2b569086e1604, type: 3}
+    - {fileID: 8300000, guid: a85766b3a149c7a4bab39648c808cac2, type: 3}
+    - {fileID: 8300000, guid: f9547805b8a7ee14f8031d6de1f299de, type: 3}
+    - {fileID: 8300000, guid: f06d088d2a8613b4d976f2492056ced1, type: 3}
+    - {fileID: 8300000, guid: ccbc8636e0889244598ca07076cfb109, type: 3}
+    - {fileID: 8300000, guid: 4e27ea2c6c49d074293df1abc5c6a874, type: 3}
+  - myList:
+    - {fileID: 8300000, guid: 4b8b2ec68f246ec4ca6a749d50a3bf0f, type: 3}
+    - {fileID: 8300000, guid: a9daa5962faac8544a6cf011335c9f1a, type: 3}
+    - {fileID: 8300000, guid: eb8b02f214080324f98c701afb7f3de8, type: 3}
+    - {fileID: 8300000, guid: 9cd199fef1659ba49a12a7448973028f, type: 3}
+    - {fileID: 8300000, guid: efc2e627ad08f894b8a50bce0983c9f2, type: 3}
+    - {fileID: 8300000, guid: a2feb73c61897d74f8538781de74c3f7, type: 3}
+  - myList:
+    - {fileID: 8300000, guid: f2611931f08f53443bc3a499751ddc67, type: 3}
+    - {fileID: 8300000, guid: b2fa761cc0fd3c84fa05d0f02a9e6ed4, type: 3}
+    - {fileID: 8300000, guid: da220c38e43c3524aad0cda5e8b6a4e7, type: 3}
+    - {fileID: 8300000, guid: dea5481f5538d7e449f1a7e39fc46779, type: 3}
+    - {fileID: 8300000, guid: 6552f1f406e5dba468bc48f6306c5c3e, type: 3}
+    - {fileID: 8300000, guid: 73c8230f7a2a51a4a9f1622525badaad, type: 3}
+  - myList:
+    - {fileID: 8300000, guid: 9dc16bf19f9375f4da3a6fb5260d5f89, type: 3}
+    - {fileID: 8300000, guid: 36944d8a7f884de41aeab8d8be259711, type: 3}
+    - {fileID: 8300000, guid: d963d3a5439b2da44a1212274dee87f6, type: 3}
+    - {fileID: 8300000, guid: de99f49d32fd3064c9f2307c9f8823b0, type: 3}
+    - {fileID: 8300000, guid: 1d37c48bfc2b72d4b88cefa8dedbf3c4, type: 3}
+    - {fileID: 8300000, guid: bdd241c62434df84aaf709386513e89a, type: 3}
   isAlive: 0
   isDashing: 0
   inAir: 0
