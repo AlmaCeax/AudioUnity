@@ -10,13 +10,6 @@ using System.Collections.Generic;
 
 public delegate void DeathMessage();
 public delegate void NewWeaponEvent();
-
-[System.Serializable]
-public class ListWrapper
-{
-    public List<AudioClip> myList;
-}
-
 public class PlayerManager : Singleton<PlayerManager>
 {
 
@@ -26,16 +19,12 @@ public class PlayerManager : Singleton<PlayerManager>
 
     protected PlayerManager() { }
 
-     [Header("-- Wwise --")]
-     public AK.Wwise.Event Health = new AK.Wwise.Event();
-     public AK.Wwise.Trigger Death = new AK.Wwise.Trigger();
-     public AK.Wwise.RTPC HealthLevel = new AK.Wwise.RTPC();
-     public AK.Wwise.RTPC RegenerationLevel = new AK.Wwise.RTPC();
-     public AK.Wwise.Event HurtSound = new AK.Wwise.Event();
-
-    [Header("Audio Clips")]
-    public List<ListWrapper> runFootstepClips;
-    public List<ListWrapper> walkFootstepClips;
+    [Header("-- Wwise --")]
+    public AK.Wwise.Event Health = new AK.Wwise.Event();
+    public AK.Wwise.Trigger Death = new AK.Wwise.Trigger();
+    public AK.Wwise.RTPC HealthLevel = new AK.Wwise.RTPC();
+    public AK.Wwise.RTPC RegenerationLevel = new AK.Wwise.RTPC();
+    public AK.Wwise.Event HurtSound = new AK.Wwise.Event();
 
     [Header("Player Information")]
     public bool isAlive;
@@ -62,7 +51,6 @@ public class PlayerManager : Singleton<PlayerManager>
     public Rigidbody playerRb;
     public Collider playerCollider;
     public Animator playerAnimator;
-    public AudioSource playerAudio;
     public GameObject playerHead;
     public Camera TotallyNotZeldaPickupCam;
     public GameObject GraveStone;
@@ -186,7 +174,6 @@ public class PlayerManager : Singleton<PlayerManager>
         attackSystem = player.GetComponent<PlayerAttack>();
         playerHead = GameObject.FindGameObjectWithTag("PlayerHead");
         playerAnimator = player.GetComponent<Animator>();
-        playerAudio = player.GetComponent<AudioSource>();
 
         if (weaponSlot == null)
         {

@@ -85,21 +85,21 @@ public class AdventuressAnimationEventHandler : MonoBehaviour
 
                 if (side == FootSide.left )
                 {
-                    //if (foot_L.FootstepSound.Validate())
-                    //{ 
+                    if (foot_L.FootstepSound.Validate())
+                    { 
                         foot_L.PlayFootstepSound();
                         particlePosition = foot_L.transform.position;
                         FootstepParticles(particlePosition);
-                    //}
+                    }
                 }
                 else
                 {
-                   // if (foot_R.FootstepSound.Validate())
-                    //{
+                    if (foot_R.FootstepSound.Validate())
+                    {
                         foot_R.PlayFootstepSound();
                         particlePosition = foot_R.transform.position;
                         FootstepParticles(particlePosition);
-                    //
+                    }
                 }
             }
         }
