@@ -24,7 +24,10 @@ public class PlayerFoot : MonoBehaviour
             materialChecker.CheckMaterial(gameObject); //This also sets the material if a SoundMaterial is found!
         }
 
-        FootstepSound.Post(gameObject);
+        int sound_type = (int)materialChecker.GetMaterial();
+        int sound_index = Random.Range(0, PlayerManager.Instance.runFootstepClips[0].myList.Count);
+        PlayerManager.Instance.playerAudio.PlayOneShot(PlayerManager.Instance.runFootstepClips[sound_type].myList[sound_index]);
+        //FootstepSound.Post(gameObject);
     }
 
     public void EnterWaterZone()

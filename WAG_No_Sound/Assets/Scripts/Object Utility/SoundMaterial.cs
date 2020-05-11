@@ -7,7 +7,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum SoundMatType
+{
+    DIRT,
+    GRASS,
+    RUBBLE,
+    SAND,
+    STONE,
+    WATER,
+    WOOD
+}
 public class SoundMaterial : MonoBehaviour
 {
-    public AK.Wwise.Switch material;
+    public SoundMatType material;
 }
