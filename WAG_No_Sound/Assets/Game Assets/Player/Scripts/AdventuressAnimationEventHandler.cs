@@ -141,8 +141,11 @@ public class AdventuressAnimationEventHandler : MonoBehaviour
     {
         // PLAY SOUND
         Weapon W = PlayerManager.Instance.equippedWeaponInfo;
-        W.WeaponTypeSwitch.SetValue(PlayerManager.Instance.weaponSlot);
-        Swing.Post(PlayerManager.Instance.weaponSlot);
+        //W.WeaponTypeSwitch.SetValue(PlayerManager.Instance.weaponSlot);
+        //Swing.Post(PlayerManager.Instance.weaponSlot);
+        int sound_type = (int)W.weaponAnimationType;
+        int sound_index = Random.Range(0, PlayerManager.Instance.swingClips[sound_type].myList.Count);
+        PlayerManager.Instance.playerAudio.PlayOneShot(PlayerManager.Instance.swingClips[sound_type].myList[sound_index]);
     }
 
     public void PauseMovement()

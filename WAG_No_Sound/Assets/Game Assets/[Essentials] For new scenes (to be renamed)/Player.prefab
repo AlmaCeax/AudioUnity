@@ -5843,7 +5843,7 @@ MonoBehaviour:
       - {fileID: 114000012276130992}
     MaxDamage: 30
     ImpactVelocity: 40
-    IsAvailable: 0
+    IsAvailable: 1
   SpellSelect: 0
   SpellCast:
     idInternal: -1657715331
@@ -5865,6 +5865,8 @@ MonoBehaviour:
     valueGuidInternal: 7e4ad172fe092e4b8dc0a4bce45b2a0d
     WwiseObjectReference: {fileID: 11400000, guid: 99fae035125a1264984ccc6c7009bc9c,
       type: 2}
+  spellChargeClip: {fileID: 8300000, guid: 1ce0e6fdd5e0ba54fb522bf2b9d230b0, type: 3}
+  spellCastClip: {fileID: 8300000, guid: 2710046ada72a634b980fc107d003068, type: 3}
 --- !u!54 &54086396311597208
 Rigidbody:
   m_ObjectHideFlags: 0

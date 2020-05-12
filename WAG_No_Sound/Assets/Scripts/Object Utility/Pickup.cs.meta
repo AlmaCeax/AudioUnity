@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: edc4b93d7370a4f869f4a97723b5374e
-timeCreated: 1473164104
-licenseType: Free
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - pickupParticles: {instanceID: 0}
+  - trigger: {instanceID: 0}
+  - weaponPickupClip: {fileID: 8300000, guid: 3c3d6b8b8ed8323489ae0aed1cf448f1, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

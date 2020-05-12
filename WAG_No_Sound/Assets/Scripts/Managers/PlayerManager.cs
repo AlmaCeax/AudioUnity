@@ -36,6 +36,7 @@ public class PlayerManager : Singleton<PlayerManager>
     public List<ListWrapper> runFootstepClips;
     public List<ListWrapper> walkFootstepClips;
     public List<ListWrapper> impactClips;
+    public List<ListWrapper> swingClips;
 
     [Header("Player Information")]
     public bool isAlive;

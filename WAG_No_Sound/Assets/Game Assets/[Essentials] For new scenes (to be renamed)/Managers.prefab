@@ -305,6 +305,22 @@ MonoBehaviour:
     - {fileID: 8300000, guid: da3e1d297f643254c9db424a49c1e202, type: 3}
     - {fileID: 8300000, guid: f3c9991864b2d2c4faa0bc664f44cb18, type: 3}
     - {fileID: 8300000, guid: b96c61a955d42964eb8f6ae45764b775, type: 3}
+  swingClips:
+  - myList:
+    - {fileID: 8300000, guid: 4d1e395b54b3ef34697af838690331d7, type: 3}
+    - {fileID: 8300000, guid: 18f8209a03cbd3a47ae21bd4397287fa, type: 3}
+    - {fileID: 8300000, guid: 38575130ece0b1e4d9f980abd5263c9c, type: 3}
+    - {fileID: 8300000, guid: a3b2a68cf6912aa4db9de469457587e1, type: 3}
+    - {fileID: 8300000, guid: 98d3e945d621a344cac92562bb37ccdb, type: 3}
+  - myList:
+    - {fileID: 8300000, guid: 9d7fdde3db71a084c8658e60d451c8df, type: 3}
+    - {fileID: 8300000, guid: a928d095a03f25740a2507b11178b950, type: 3}
+    - {fileID: 8300000, guid: 4d82e41b5d5dfeb469b96d39a8cf1fac, type: 3}
+    - {fileID: 8300000, guid: fc9c383bd7fa69046ac2933aef0e0033, type: 3}
+    - {fileID: 8300000, guid: b26d7b39abcde4b48aacc2d1fa12704e, type: 3}
+    - {fileID: 8300000, guid: 9cc061de0ae18fb4593eca719fa4f94f, type: 3}
+    - {fileID: 8300000, guid: e13a07e63e35054418b6f4a974d52de5, type: 3}
+    - {fileID: 8300000, guid: 93e6196f12261d74c8e0fa236ae79192, type: 3}
   isAlive: 0
   isDashing: 0
   inAir: 0
@@ -592,11 +608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FreezePlayerMovement: 1
-  QuestProgressRTPC:
-    idInternal: 500836401
-    valueGuidInternal: 2b6e82b7592c0648b282d37cf93f2e48
-    WwiseObjectReference: {fileID: 11400000, guid: 9aa21f0e0aa91a341b0ce93c1f6ed307,
-      type: 2}
+  QuestSound: {fileID: 0}
   QuestBarInformation: 
   QuestBarInformationKey: 
   showQuestBarInfo: 0

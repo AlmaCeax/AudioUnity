@@ -7,6 +7,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
+using System.Collections.Generic;
 
 public class Pickup : MonoBehaviour, IInteractable
 {
@@ -21,6 +22,7 @@ public class Pickup : MonoBehaviour, IInteractable
 	public float rotationSpeed = 50f;
 	public bool addedToInteractManager = false;
 	public bool InteractionEnabled = true;
+	public bool weaponPickup = false;
 
 	public bool interactionSound = true;
 	[HideInInspector]
@@ -30,6 +32,10 @@ public class Pickup : MonoBehaviour, IInteractable
 	public AK.Wwise.Event PickUpEvent;
 	[Space(15f)]
 	public AK.Wwise.Switch PickupType;
+
+	[Header("AudioClips")]
+	public List<AudioClip> pickupClips;
+	public AudioClip weaponPickupClip;
 
 	#region private variables
 	private float randomOffset;
@@ -191,8 +197,10 @@ public class Pickup : MonoBehaviour, IInteractable
 
 			if (interactionSound)
 			{
-				
-				PickUpEvent.Post(gameObject);
+				//PickUpEvent.Post(gameObject);
+				PlayerManager.Instance.playerAudio.PlayOneShot(pickupClips[Random.Range(0, pickupClips.Count)]);
+				if(weaponPickup)
+					PlayerManager.Instance.playerAudio.PlayOneShot(weaponPickupClip);
 			}
 			if (pickupParticles != null)
 			{

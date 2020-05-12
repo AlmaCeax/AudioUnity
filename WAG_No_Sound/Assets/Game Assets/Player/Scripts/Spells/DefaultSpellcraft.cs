@@ -44,6 +44,10 @@ public class DefaultSpellcraft : MonoBehaviour
     public AK.Wwise.Event SpellChargeStop = new AK.Wwise.Event();
     public AK.Wwise.RTPC SpellChargeLevel = new AK.Wwise.RTPC();
 
+    [Header("AudioClips")]
+    public AudioClip spellChargeClip;
+    public AudioClip spellCastClip;
+
     #region private variables
     private Quaternion startRotation;
     private Vector3 targetPosition;
@@ -95,7 +99,8 @@ public class DefaultSpellcraft : MonoBehaviour
             }
 
             // SPELL SOUND
-            SpellChargeStart.Post(gameObject);
+            // SpellChargeStart.Post(gameObject);
+            PlayerManager.Instance.playerAudio.PlayOneShot(spellChargeClip);
             startRotation = transform.rotation;
         }
     }
@@ -182,7 +187,8 @@ public class DefaultSpellcraft : MonoBehaviour
 
                     // SPELL SOUND
                     SpellChargeLevel.SetGlobalValue(Spellcraft[SpellSelect].Charge.ChargeAmount * 100);
-                    SpellCast.Post(this.gameObject);
+                    PlayerManager.Instance.playerAudio.PlayOneShot(spellCastClip);
+                    //SpellCast.Post(this.gameObject);
                 }
             }
         }
