@@ -19,12 +19,15 @@ public class PlayerFoot : MonoBehaviour
 
     public void PlayFootstepSound()
     {
+        int sound_type = 0;
         if (!inWater)
         {
+            sound_type = (int)materialChecker.GetMaterial();
             materialChecker.CheckMaterial(gameObject); //This also sets the material if a SoundMaterial is found!
         }
+        else
+            sound_type = (int)SoundMatType.WATER;
 
-        int sound_type = (int)materialChecker.GetMaterial();
         int sound_index = 0;
         if (PlayerManager.Instance.isSprinting)
             sound_index = Random.Range(0, PlayerManager.Instance.runFootstepClips[sound_type].myList.Count);
