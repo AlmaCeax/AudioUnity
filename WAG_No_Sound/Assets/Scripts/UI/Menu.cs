@@ -22,7 +22,7 @@ public class Menu : MonoBehaviour
 
     [Header("Audio")]
     public AudioClip MenuOpenSound;
-    public AudioClip ButtonCloseSound;
+    public AudioClip MenuCloseSound;
     public AudioClip ButtonEnterSound;
     public AudioClip ButtonOverSound;
     public AudioClip TeleportSelectSound;
@@ -68,8 +68,7 @@ public class Menu : MonoBehaviour
             isOpen = menuOpen;
             if (menuOpen)
             {
-                audio_source.clip = MenuOpenSound;
-                audio_source.Play();
+                audio_source.PlayOneShot(MenuOpenSound);
                 //MenuOpenSound.Post(gameObject);
                 //MenuRTPC.SetGlobalValue(100f);
                 GameManager.Instance.gameSpeedHandler.PauseGameSpeed(gameObject.GetInstanceID());
@@ -83,8 +82,7 @@ public class Menu : MonoBehaviour
             }
             else
             {
-                audio_source.clip = ButtonCloseSound;
-                audio_source.Play();
+                audio_source.PlayOneShot(MenuCloseSound);
                 //MenuCloseSound.Post(gameObject);
                 //MenuRTPC.SetGlobalValue(0f);
                 GameManager.Instance.gameSpeedHandler.UnPauseGameSpeed(gameObject.GetInstanceID());

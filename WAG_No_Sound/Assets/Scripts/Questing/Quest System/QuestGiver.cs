@@ -91,15 +91,12 @@ namespace QuestSystem
             currentQuestIdx++;
             if (currentQuestIdx < Quests.Count)
             {
-                audio_source.clip = QuestlineCompleteEvent;
-                audio_source.Play();
+                audio_source.PlayOneShot(QuestlineCompleteEvent);
                 //QuestlineCompleteEvent.Post(gameObject);
                 InitializeQuest(currentQuestIdx);
             }
             else
             {
-                audio_source.clip = QuestlineCompleteEvent;
-                audio_source.Play();
                 //QuestlineCompleteEvent.Post(gameObject);
                 if (OnQuestlineComplete != null)
                 {
