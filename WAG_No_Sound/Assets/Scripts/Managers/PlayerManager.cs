@@ -37,6 +37,8 @@ public class PlayerManager : Singleton<PlayerManager>
     public List<ListWrapper> walkFootstepClips;
     public List<ListWrapper> impactClips;
     public List<ListWrapper> swingClips;
+    public List<AudioClip> hurtClips;
+    public List<AudioClip> deathClips;
     public AudioClip weaponPickupClip;
 
     [Header("Player Information")]
@@ -305,7 +307,8 @@ public class PlayerManager : Singleton<PlayerManager>
         if (!Immortal)
         {
             HealthOfPlayer -= a.damage;
-            HurtSound.Post(player);
+            //HurtSound.Post(player);
+            playerAudio.PlayOneShot(hurtClips[Random.Range(0, hurtClips.Count)]);
             StopRegen();
             if (HealthOfPlayer < 0f)
             {
@@ -323,7 +326,7 @@ public class PlayerManager : Singleton<PlayerManager>
                     {
                         playerAnimator.SetTrigger(deathHardBehindHash);
                     }
-                    Death.Post(player.gameObject);
+                    playerAudio.PlayOneShot(deathClips[Random.Range(0, deathClips.Count)]);
 
                 }
                 else

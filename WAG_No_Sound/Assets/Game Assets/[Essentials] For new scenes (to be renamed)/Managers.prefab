@@ -321,6 +321,22 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 9cc061de0ae18fb4593eca719fa4f94f, type: 3}
     - {fileID: 8300000, guid: e13a07e63e35054418b6f4a974d52de5, type: 3}
     - {fileID: 8300000, guid: 93e6196f12261d74c8e0fa236ae79192, type: 3}
+  hurtClips:
+  - {fileID: 8300000, guid: c0cb5e71b079a614db4e3d35855ff6f9, type: 3}
+  - {fileID: 8300000, guid: e834dd408111a314987e52d792804b19, type: 3}
+  - {fileID: 8300000, guid: 0cca69f07a1b41f4fa2e7c88ddc7d432, type: 3}
+  - {fileID: 8300000, guid: 59d701a3f4c39f04eb1b6134a63c3176, type: 3}
+  - {fileID: 8300000, guid: bf00a24ffdf9d404db7802df5adfe61b, type: 3}
+  - {fileID: 8300000, guid: 8b119397e0424e1499ea75ed492f4960, type: 3}
+  - {fileID: 8300000, guid: 7fc6cc9cb75d7dc44b15d819b86a277a, type: 3}
+  - {fileID: 8300000, guid: 0893a7695caa7ad4d875c8ba48406400, type: 3}
+  - {fileID: 8300000, guid: c0e685c16b1a79f44a486221b18fa116, type: 3}
+  - {fileID: 8300000, guid: 1b7e587cf66e9344a9a466e080e90c03, type: 3}
+  - {fileID: 8300000, guid: 1b7f7f9031539134d8d2f6ac78f5e0a1, type: 3}
+  deathClips:
+  - {fileID: 8300000, guid: edc977570d55e2c4d801b43b49da3adb, type: 3}
+  - {fileID: 8300000, guid: 05c64000868b3a54fa1da9d476eedba6, type: 3}
+  - {fileID: 8300000, guid: f8984f644ddf375459c81fe7ebbfe4b6, type: 3}
   weaponPickupClip: {fileID: 8300000, guid: 3c3d6b8b8ed8323489ae0aed1cf448f1, type: 3}
   isAlive: 0
   isDashing: 0
