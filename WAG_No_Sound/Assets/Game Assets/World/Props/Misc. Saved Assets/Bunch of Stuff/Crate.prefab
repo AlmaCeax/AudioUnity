@@ -140,6 +140,8 @@ MonoBehaviour:
     damageMultiplier: 10
   - WeaponType: 6
     damageMultiplier: 2
+  - WeaponType: 1
+    damageMultiplier: 1
   intermediateMeshes:
   - {fileID: 4300000, guid: baffd8af801d9448baa147c0284513b8, type: 2}
   - {fileID: 4300000, guid: 7f4ef157b834841eba72e8132317dc87, type: 2}
