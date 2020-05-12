@@ -45,6 +45,9 @@ public class DestructibleObject : MonoBehaviour, IDamageable
     public AK.Wwise.Event Destruction = new AK.Wwise.Event();
     public AK.Wwise.RTPC DestructionLevel = new AK.Wwise.RTPC();
 
+    [Header("Audio Clips")]
+    public List<AudioClip> destroyClips;
+
     private float destructionProgress = 0;
     private float origHP;
     private int meshIndex;
