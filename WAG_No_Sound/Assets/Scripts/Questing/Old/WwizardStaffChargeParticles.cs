@@ -14,6 +14,8 @@ public class WwizardStaffChargeParticles : MonoBehaviour
     public AK.Wwise.Event StartChargeEvent;
     public AK.Wwise.Event EndChargeEvent;
 
+    public List<AudioClip> endChargeSounds;
+
     [Header("Line Renderer Settings")]
     public LineRenderer lineRenderer;
 
@@ -29,12 +31,15 @@ public class WwizardStaffChargeParticles : MonoBehaviour
 
     public GameObject chargeDoneParticles;
 
+    AudioSource audio;
+
     #region private variables
     private IEnumerator chargeRoutine;
     #endregion
 
     void OnEnable()
     {
+        audio = GetComponent<AudioSource>();
         if (lineRenderer == null)
         {
             lineRenderer = GetComponent<LineRenderer>();
@@ -42,7 +47,9 @@ public class WwizardStaffChargeParticles : MonoBehaviour
 
         if (endPoint != null)
         {
-            StartChargeEvent.Post(endPoint.gameObject);
+            //StartChargeEvent.Post(endPoint.gameObject);
+            if(audio)
+                audio.Play();
             chargeRoutine = AnimatePoints();
             StartCoroutine(chargeRoutine);
 
@@ -79,7 +86,14 @@ public class WwizardStaffChargeParticles : MonoBehaviour
 
     void OnDisable()
     {
-        EndChargeEvent.Post(endPoint.gameObject);
+        //EndChargeEvent.Post(endPoint.gameObject);
+        if(audio)
+        {
+            audio.Stop();
+            int sound_index = Random.Range(0, endChargeSounds.Count);
+            audio.PlayOneShot(endChargeSounds[sound_index]);
+        }
+
         StopCoroutine(chargeRoutine);
         if (lineRenderer != null)
         {

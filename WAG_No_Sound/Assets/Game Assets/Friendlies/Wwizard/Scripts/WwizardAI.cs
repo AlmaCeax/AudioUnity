@@ -12,6 +12,9 @@ public class WwizardAI : Creature
     [Header("Wwise")]
     public AK.Wwise.Event PoofGimmickSound;
     public AK.Wwise.Event StaffHitGroundSound;
+    public AudioClip poofGimmickSound;
+    public AudioClip staffHitGroundSound;
+
     public MaterialChecker matChecker;
 
     [Header("Idle Gimmick 1 Poof Objects")]
@@ -58,7 +61,8 @@ public class WwizardAI : Creature
         if (Gimmick1PoofParticles != null && Gimmick1PoofTransform != null)
         {
             GameObject p = Instantiate(Gimmick1PoofParticles, Gimmick1PoofTransform.transform.position + Gimmick1Displacement, Quaternion.identity) as GameObject;
-            PoofGimmickSound.Post(p);
+            //PoofGimmickSound.Post(p);
+            audio.PlayOneShot(poofGimmickSound);
             Destroy(p, 5f);
         }
     }
@@ -97,6 +101,7 @@ public class WwizardAI : Creature
     public void PlayStaffSound()
     {
         matChecker.CheckMaterial(gameObject);
-        StaffHitGroundSound.Post(gameObject);
+        //StaffHitGroundSound.Post(gameObject);
+        audio.PlayOneShot(staffHitGroundSound);
     }
 }
