@@ -23,6 +23,13 @@ public class EvilHeadAI : Creature
     public AK.Wwise.Event ChargeSound;
     public AK.Wwise.Event TelegraphSound;
 
+    [Header("AudioClips")]
+    public List<AudioClip> movementRTPC;
+    public AudioClip hoverSoundStart;
+    public List<AudioClip> biteSound;
+    public List<AudioClip> chargeSound;
+    public AudioClip telegraphSound;
+
     #region private variables
     private Vector3 targetLocation = Vector3.zero;
     private IEnumerator chargeRoutine;
@@ -46,7 +53,8 @@ public class EvilHeadAI : Creature
 
     public override void Start(){
 		base.Start();
-        HoverSoundStart.Post(this.gameObject);
+        audio.Play();
+        //HoverSoundStart.Post(this.gameObject);
 	}
 
     public override void OnSpotting()
@@ -77,7 +85,8 @@ public class EvilHeadAI : Creature
         thisNavMeshAgent.destination = transform.position;
         targetLocation = targetOfNPC.transform.position + Vector3.up;
         StartCoroutine(RotateTowardsTarget(targetLocation, 1f));
-        TelegraphSound.Post(gameObject);
+        //TelegraphSound.Post(gameObject);
+        audio.PlayOneShot(telegraphSound);
     }
 
 
@@ -98,6 +107,10 @@ public class EvilHeadAI : Creature
             StopCoroutine(chargeRoutine);
         }
         chargeRoutine = ChargeTowardsPlayer(0.5f);
+
+        int sound_index = Random.Range(0, chargeSound.Count);
+        audio.PlayOneShot(chargeSound[sound_index]);
+
         StartCoroutine(chargeRoutine);
     }
 
@@ -117,8 +130,8 @@ public class EvilHeadAI : Creature
     IEnumerator ChargeTowardsPlayer(float seconds)
     {
         //print(Time.realtimeSinceStartup + ": ChargeTowardsPlayer");
-        TelegraphSound.Stop(gameObject,0, AkCurveInterpolation.AkCurveInterpolation_Linear);
-        ChargeSound.Post(gameObject);
+        //TelegraphSound.Stop(gameObject,0, AkCurveInterpolation.AkCurveInterpolation_Linear);
+        //ChargeSound.Post(gameObject);
 
         Vector3 currentPosition = transform.position;
         Vector3 destination = targetLocation + ((targetLocation) - currentPosition).normalized * 2f;
@@ -164,7 +177,8 @@ public class EvilHeadAI : Creature
     {
         SetMovementSpeed(0f);
         //print(Time.realtimeSinceStartup + ": Explode");
-        HoverSoundEnd.Post(this.gameObject);
+        //HoverSoundEnd.Post(this.gameObject);
+        audio.Stop();
 
         GameObject fx = (GameObject)Instantiate(deathFX, transform.position, Quaternion.identity);
         Destroy(fx, 5f);
@@ -189,6 +203,8 @@ public class EvilHeadAI : Creature
     /// </summary>
     public void PlayBiteSound()
     {
-        BiteSound.Post(this.gameObject);
+        //BiteSound.Post(this.gameObject);
+        int sound_index = Random.Range(0, biteSound.Count);
+        audio.PlayOneShot(biteSound[sound_index]);
     }
 }

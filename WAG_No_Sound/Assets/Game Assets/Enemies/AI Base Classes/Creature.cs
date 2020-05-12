@@ -110,6 +110,12 @@ public abstract class Creature : MonoBehaviour, IDamageable //TODO: This class i
     public AK.Wwise.Event HurtSound;
     public AK.Wwise.Event DeathSound;
 
+    [Header("AudioClips")]
+    public List<AudioClip> hurtSound;
+    public List<AudioClip> deathSound;
+
+    public AudioSource audio;
+
     IEnumerator StateSwitchInstance;
     IEnumerator ActiveStateInstance;
     IEnumerator ObservantInstance;
@@ -151,6 +157,8 @@ public abstract class Creature : MonoBehaviour, IDamageable //TODO: This class i
         {
             anim = GetComponent<Animator>();
         }
+        if (audio == null)
+            audio = GetComponent<AudioSource>();
 
         thisRigidbody = GetComponent<Rigidbody>();
         thisNavMeshAgent = GetComponent<NavMeshAgent>();
@@ -905,7 +913,9 @@ public abstract class Creature : MonoBehaviour, IDamageable //TODO: This class i
             }
             else
             {
-                HurtSound.Post(gameObject);
+                //HurtSound.Post(gameObject);
+                int sound_index = Random.Range(0, hurtSound.Count);
+                audio.PlayOneShot(hurtSound[sound_index]);
                 OnDamageReset();
             }
         }
@@ -918,7 +928,9 @@ public abstract class Creature : MonoBehaviour, IDamageable //TODO: This class i
 
     protected virtual void PlayCreatureDeathSound()
     {
-        DeathSound.Post(gameObject);
+        //DeathSound.Post(gameObject);
+        int sound_index = Random.Range(0, deathSound.Count);
+        audio.PlayOneShot(deathSound[sound_index]);
     }
 
     /// <summary>

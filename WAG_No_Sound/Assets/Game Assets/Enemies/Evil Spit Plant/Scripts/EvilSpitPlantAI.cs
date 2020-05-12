@@ -6,6 +6,7 @@
 
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class EvilSpitPlantAI : Creature
 {
@@ -28,6 +29,11 @@ public class EvilSpitPlantAI : Creature
     public AK.Wwise.Event ChargeSound = new AK.Wwise.Event();
     public AK.Wwise.Event Death_Headfall = new AK.Wwise.Event();
     public AK.Wwise.Event asdasdasfasda;
+
+    [Header("AudioClip")]
+    public List<AudioClip> attackSound;
+    public List<AudioClip> chargeSound;
+    public List<AudioClip> death_Headfall;
 
     public override void OnSpotting()
     {
@@ -58,7 +64,9 @@ public class EvilSpitPlantAI : Creature
     {
         if (targetOfNPC != null && !GameManager.Instance.AIPaused)
         {
-            AttackSound.Post(this.gameObject);
+            //AttackSound.Post(this.gameObject);
+            int sound_index = Random.Range(0, attackSound.Count);
+            audio.PlayOneShot(attackSound[sound_index]);
 
             GameObject bullet = Instantiate(bulletPrefab, spitBulletSpawnPoint.transform.position, Quaternion.LookRotation(transform.forward)) as GameObject; //TODO: Pool spitbullets
             bullet.GetComponent<EvilSpitPlantProjectile>().parent = gameObject;
@@ -71,7 +79,9 @@ public class EvilSpitPlantAI : Creature
 
     public void PlayChargeSound()
     {
-        ChargeSound.Post(gameObject);
+        //ChargeSound.Post(gameObject);
+        int sound_index = Random.Range(0, chargeSound.Count);
+        audio.PlayOneShot(chargeSound[sound_index]);
     }
 
     /// <summary>
@@ -137,6 +147,7 @@ public class EvilSpitPlantAI : Creature
 
     public void OnDeathHeadFall()
     {
-        Death_Headfall.Post(this.gameObject);
+        int sound_index = Random.Range(0, death_Headfall.Count);
+        audio.PlayOneShot(death_Headfall[sound_index]);
     }
 }

@@ -31,6 +31,10 @@ public class EvilSpitPlantProjectile : MonoBehaviour
     public AK.Wwise.Event ImpactSound = new AK.Wwise.Event();
     public AK.Wwise.Event NoImpactSound = new AK.Wwise.Event();
 
+    public List<AudioClip> impactSound;
+    public AudioClip continuousSound;
+    AudioSource audio;
+
     #region private variables
     private Rigidbody rb;
     private float time = 0;
@@ -41,10 +45,12 @@ public class EvilSpitPlantProjectile : MonoBehaviour
     void OnEnable()
     {
         rb = GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
         PlayerCamera.OnCameraEventStart += ForceExplode;
 
         movementRoutine = MoveSpitBullet();
         StartCoroutine(movementRoutine);
+        audio.Play();
     }
 
     private void OnDisable()
@@ -54,7 +60,7 @@ public class EvilSpitPlantProjectile : MonoBehaviour
 
     IEnumerator MoveSpitBullet()
     {
-        ContinuousSoundStart.Post(gameObject);
+        //ContinuousSoundStart.Post(gameObject);
         while (time < duration)
         {
             rb.velocity = transform.forward * speed;
@@ -126,7 +132,8 @@ public class EvilSpitPlantProjectile : MonoBehaviour
         {
             isExploding = true;
 
-            ContinuousSoundStop.Post(gameObject);
+            //ContinuousSoundStop.Post(gameObject);
+            audio.Stop();
 
             GetComponent<Collider>().enabled = false;
             time = duration;
@@ -137,12 +144,14 @@ public class EvilSpitPlantProjectile : MonoBehaviour
 
             if (hitSomething)
             {
-                ImpactSound.Post(go.gameObject);
+                //ImpactSound.Post(go.gameObject);
+                int sound_index = Random.Range(0, impactSound.Count);
+                audio.PlayOneShot(impactSound[sound_index]);
             }
-            else
+            /*else
             {
                 NoImpactSound.Post(go.gameObject);
-            }
+            }*/
 
             Destroy(go, 5f);
 
