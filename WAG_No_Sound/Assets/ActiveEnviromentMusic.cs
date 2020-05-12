@@ -8,10 +8,11 @@ public class ActiveEnviromentMusic : MonoBehaviour
     public AudioClip music;
     public AudioClip nightmusic;
     public AudioClip song;
+    public AudioClip currentsong;
     // Start is called before the first frame update
     void Start()
     {
-        
+        song = music;
     }
 
     // Update is called once per frame
@@ -30,11 +31,12 @@ public class ActiveEnviromentMusic : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && currentsong != song)
         {
             father.loop = true;
             father.clip = song;
             father.Play();
+            currentsong = song;
         }
     }
 }
