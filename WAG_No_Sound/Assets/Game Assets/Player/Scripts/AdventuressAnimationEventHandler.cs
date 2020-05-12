@@ -145,7 +145,7 @@ public class AdventuressAnimationEventHandler : MonoBehaviour
         //Swing.Post(PlayerManager.Instance.weaponSlot);
         int sound_type = (int)W.weaponAnimationType;
         int sound_index = Random.Range(0, PlayerManager.Instance.swingClips[sound_type].myList.Count);
-        PlayerManager.Instance.playerAudio.PlayOneShot(PlayerManager.Instance.swingClips[sound_type].myList[sound_index]);
+        PlayerManager.Instance.playerAudio.PlayOneShot(PlayerManager.Instance.swingClips[sound_type].myList[sound_index], 0.5f);
     }
 
     public void PauseMovement()
