@@ -22,7 +22,6 @@ public class Pickup : MonoBehaviour, IInteractable
 	public float rotationSpeed = 50f;
 	public bool addedToInteractManager = false;
 	public bool InteractionEnabled = true;
-	public bool weaponPickup = false;
 
 	public bool interactionSound = true;
 	[HideInInspector]
@@ -35,7 +34,6 @@ public class Pickup : MonoBehaviour, IInteractable
 
 	[Header("AudioClips")]
 	public List<AudioClip> pickupClips;
-	public AudioClip weaponPickupClip;
 
 	#region private variables
 	private float randomOffset;
@@ -199,8 +197,6 @@ public class Pickup : MonoBehaviour, IInteractable
 			{
 				//PickUpEvent.Post(gameObject);
 				PlayerManager.Instance.playerAudio.PlayOneShot(pickupClips[Random.Range(0, pickupClips.Count)]);
-				if(weaponPickup)
-					PlayerManager.Instance.playerAudio.PlayOneShot(weaponPickupClip);
 			}
 			if (pickupParticles != null)
 			{

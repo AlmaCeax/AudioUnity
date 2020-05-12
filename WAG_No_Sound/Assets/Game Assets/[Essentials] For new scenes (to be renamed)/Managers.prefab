@@ -321,6 +321,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 9cc061de0ae18fb4593eca719fa4f94f, type: 3}
     - {fileID: 8300000, guid: e13a07e63e35054418b6f4a974d52de5, type: 3}
     - {fileID: 8300000, guid: 93e6196f12261d74c8e0fa236ae79192, type: 3}
+  weaponPickupClip: {fileID: 8300000, guid: 3c3d6b8b8ed8323489ae0aed1cf448f1, type: 3}
   isAlive: 0
   isDashing: 0
   inAir: 0
@@ -608,7 +609,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FreezePlayerMovement: 1
-  QuestSound: {fileID: 0}
+  QuestProgressRTPC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   QuestBarInformation: 
   QuestBarInformationKey: 
   showQuestBarInfo: 0

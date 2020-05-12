@@ -4773,6 +4773,7 @@ MonoBehaviour:
   rotationSpeed: 50
   addedToInteractManager: 0
   InteractionEnabled: 1
+  weaponPickup: 0
   interactionSound: 1
   trigger: {fileID: 0}
   PickUpEvent:
@@ -4790,6 +4791,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3baaf9d416eda2f4394e4bdcfd59f0f9, type: 3}
   - {fileID: 8300000, guid: f348bba53876b754e9edcabe0b4d36dd, type: 3}
   - {fileID: 8300000, guid: da89d57d0a7d92e41b629bb4a0644eb1, type: 3}
+  weaponPickupClip: {fileID: 0}
   OnBecameFocus:
     m_PersistentCalls:
       m_Calls:
@@ -4849,6 +4851,7 @@ MonoBehaviour:
     valueGuidInternal: d1818cc6179d7f4c8356964f200dde92
     WwiseObjectReference: {fileID: 11400000, guid: 4a12b4c7bb4aa2a438087ddcea4392b7,
       type: 2}
+  spawnClip: {fileID: 8300000, guid: 1bae769c41e3b144d80992c2dda6dca9, type: 3}
 --- !u!114 &114426358405938330
 MonoBehaviour:
   m_ObjectHideFlags: 0

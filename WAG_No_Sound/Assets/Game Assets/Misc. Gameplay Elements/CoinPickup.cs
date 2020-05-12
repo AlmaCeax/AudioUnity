@@ -13,6 +13,7 @@ public class CoinPickup : MonoBehaviour {
 
     public bool playSpawnSoundAtSpawn = true;
     public AK.Wwise.Event spawnSound;
+	public AudioClip spawnClip;
 
 	void Start(){
         if (playSpawnSoundAtSpawn){

@@ -37,6 +37,7 @@ public class PlayerManager : Singleton<PlayerManager>
     public List<ListWrapper> walkFootstepClips;
     public List<ListWrapper> impactClips;
     public List<ListWrapper> swingClips;
+    public AudioClip weaponPickupClip;
 
     [Header("Player Information")]
     public bool isAlive;

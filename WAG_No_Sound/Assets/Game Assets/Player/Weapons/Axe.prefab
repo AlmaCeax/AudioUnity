@@ -374,7 +374,7 @@ MonoBehaviour:
   rotationSpeed: 50
   addedToInteractManager: 0
   InteractionEnabled: 1
-  weaponPickup: 0
+  weaponPickup: 1
   interactionSound: 1
   trigger: {fileID: 0}
   PickUpEvent:

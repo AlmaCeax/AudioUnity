@@ -181,6 +181,8 @@ public class AdventuressAnimationEventHandler : MonoBehaviour
     public void PickUpItem()
     {
         PlayerManager.Instance.PickUpEvent();
+        PlayerManager.Instance.playerAudio.PlayOneShot(PlayerManager.Instance.weaponPickupClip);
+
         GetItem.Post(this.gameObject);
         GetItemStinger.Post(GameManager.Instance.MusicGameObject);
     }
