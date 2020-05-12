@@ -85,6 +85,7 @@ public class CreditsSequence : MonoBehaviour
             if (i == CameraSequence.Count - 2)
             {
                 canvAnim.SetTrigger(fadeOutHash);
+                StartCoroutine(FadeOut(GetComponent<AudioSource>(), 2f));
             }
         }
     }
@@ -112,6 +113,7 @@ public class CreditsSequence : MonoBehaviour
 
     public void SkipCredits()
     {
+        StartCoroutine(FadeOut(GetComponent<AudioSource>(), 2f));
         canvAnim.speed = 5f;
         canvAnim.SetTrigger(fadeOutHash);
     }
@@ -120,5 +122,20 @@ public class CreditsSequence : MonoBehaviour
     {
         MusicEvent.Stop(gameObject);
         InputManager.OnMenuDown -= SkipCredits;
+    }
+
+    IEnumerator FadeOut(AudioSource audioSource, float FadeTime)
+    {
+        float startVolume = audioSource.volume;
+
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / FadeTime;
+
+            yield return null;
+        }
+
+        audioSource.Stop();
+        audioSource.volume = startVolume;
     }
 }
