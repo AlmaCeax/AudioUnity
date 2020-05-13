@@ -135,7 +135,7 @@ MonoBehaviour:
   - WeaponType: 3
     damageMultiplier: 1
   - WeaponType: 4
-    damageMultiplier: 0.2
+    damageMultiplier: 100
   - WeaponType: 5
     damageMultiplier: 10
   - WeaponType: 6

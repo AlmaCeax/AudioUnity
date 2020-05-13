@@ -178,7 +178,7 @@ MonoBehaviour:
     groupGuidInternal: 3cefd56b2ad8a24e8dbec4a33c57e2bb
     WwiseObjectReference: {fileID: 11400000, guid: 7995cf028c9b4f949b004ccb0abc978c,
       type: 2}
-  weaponType: 4
+  weaponType: 3
   weaponAnimationType: 1
   equipped: 0
   playerWeapon: 1
@@ -226,7 +226,6 @@ MonoBehaviour:
   rotationSpeed: 50
   addedToInteractManager: 0
   InteractionEnabled: 1
-  weaponPickup: 1
   interactionSound: 1
   trigger: {fileID: 0}
   PickUpEvent:
@@ -243,7 +242,6 @@ MonoBehaviour:
       type: 2}
   pickupClips:
   - {fileID: 8300000, guid: 0a0979692868a0b439cf9d087f53ccc7, type: 3}
-  weaponPickupClip: {fileID: 8300000, guid: 3c3d6b8b8ed8323489ae0aed1cf448f1, type: 3}
   OnBecameFocus:
     m_PersistentCalls:
       m_Calls: []
