@@ -17,7 +17,8 @@ public enum SoundMatType
     WOOD,
     CRATE,
     BARREL,
-    CREATURE
+    SPITPLANT,
+    CRYSTAL
 }
 public class SoundMaterial : MonoBehaviour
 {
