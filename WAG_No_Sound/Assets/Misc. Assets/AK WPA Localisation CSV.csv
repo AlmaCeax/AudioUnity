@@ -21,7 +21,7 @@ menu_audioSettings,Audio Settings,Paramètres Audio
 menu_masterVolume,Master Volume,Volume Principal
 menu_musicVolume,Music Volume,Volume de la Musique
 menu_sfxVolume,SFX Volume,Volume de la SFX
-menu_dialogVolume,Dialog Volume,Volume de la Dialog
+menu_environmentVolume,Environment Volume,Volume de la Environment
 menu_quit,Quit Game,Quitter
 menu_resume,Resume,Continuer
 menu_back,Back,Retour
