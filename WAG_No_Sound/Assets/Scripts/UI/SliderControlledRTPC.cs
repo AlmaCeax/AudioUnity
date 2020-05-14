@@ -31,4 +31,9 @@ public class SliderControlledRTPC : MonoBehaviour
     {
         gameMixer.SetFloat("dialogVol", value);
     }
+
+    public void SetEnvironmentVol(float value)
+    {
+        gameMixer.SetFloat("environmentVol", value);
+    }
 }
