@@ -28,6 +28,7 @@ public class EvilHeadAI : Creature
     public AudioClip hoverSoundStart;
     public List<AudioClip> biteSound;
     public List<AudioClip> chargeSound;
+    public List<AudioClip> explosionSound;
     public AudioClip telegraphSound;
 
     #region private variables
@@ -178,8 +179,9 @@ public class EvilHeadAI : Creature
         SetMovementSpeed(0f);
         //print(Time.realtimeSinceStartup + ": Explode");
         //HoverSoundEnd.Post(this.gameObject);
-        audio.Stop();
-
+        //audio.Stop();
+        int sound_index = Random.Range(0, explosionSound.Count);
+        PlayerManager.Instance.playerAudio.PlayOneShot(explosionSound[sound_index]);
         GameObject fx = (GameObject)Instantiate(deathFX, transform.position, Quaternion.identity);
         Destroy(fx, 5f);
 

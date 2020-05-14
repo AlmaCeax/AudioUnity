@@ -5112,9 +5112,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2823fe29798275b49a8e0931bf9c3672, type: 3}
   - {fileID: 8300000, guid: 49b62eb5a15eed648adad04654d537bf, type: 3}
   deathSound:
-  - {fileID: 8300000, guid: 80cef73f20ae8be4d8c93a839db554e6, type: 3}
-  - {fileID: 8300000, guid: 5f5eb51a8b15bb9448684fe03150e81c, type: 3}
-  - {fileID: 8300000, guid: f3dc8296e501568489795c166a01f9c1, type: 3}
+  - {fileID: 8300000, guid: b0ffad395a399154781654dc2f0796ea, type: 3}
+  - {fileID: 8300000, guid: 7d02db51022f7d745b9e9d67e7348c14, type: 3}
+  - {fileID: 8300000, guid: abc40388af538f440bd0d6dadda48b38, type: 3}
   audio: {fileID: 0}
   isAlive: 1
   startPosition: {x: 0, y: 0, z: 0}
@@ -5166,6 +5166,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d50e81d870f496843900e1c3758ceb77, type: 3}
   - {fileID: 8300000, guid: b006fd9dd6aaace408ba5e2ed2557289, type: 3}
   - {fileID: 8300000, guid: 5a4ccd178b7f984479c0565d1b3aef55, type: 3}
+  explosionSound:
+  - {fileID: 8300000, guid: 80cef73f20ae8be4d8c93a839db554e6, type: 3}
+  - {fileID: 8300000, guid: 5f5eb51a8b15bb9448684fe03150e81c, type: 3}
+  - {fileID: 8300000, guid: f3dc8296e501568489795c166a01f9c1, type: 3}
   telegraphSound: {fileID: 8300000, guid: e32006e7af79b854c9221a0165cb1d56, type: 3}
 --- !u!195 &195276050817526538
 NavMeshAgent:

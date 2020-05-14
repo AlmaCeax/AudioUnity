@@ -930,7 +930,7 @@ public abstract class Creature : MonoBehaviour, IDamageable //TODO: This class i
     {
         //DeathSound.Post(gameObject);
         int sound_index = Random.Range(0, deathSound.Count);
-        audio.PlayOneShot(deathSound[sound_index]);
+        PlayerManager.Instance.playerAudio.PlayOneShot(deathSound[sound_index]);
     }
 
     /// <summary>
