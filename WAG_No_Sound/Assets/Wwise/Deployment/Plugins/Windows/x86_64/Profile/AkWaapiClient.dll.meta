@@ -1,14 +1,15 @@
 fileFormatVersion: 2
 guid: aa9270dc30c924841a96ed677b11c500
-timeCreated: 1554142223
-licenseType: Pro
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
   iconMap: {}
   executionOrder: {}
+  defineConstraints: []
   isPreloaded: 0
   isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
   platformData:
   - first:
       Any: 
